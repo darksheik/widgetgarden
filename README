@@ -1,0 +1,5 @@
+== Overview
+
+WidgetGarden is a mock e-commerce site designed to handle the more transactional aspects of rails, vis-a-vis a real-world business example.  I will also attempt to adhere to Rails testing standards with this one, instead of shirking them as I have in my past Rails attempts.
+
+This is meant for portfolio display only and in no way is intended to be a real e-commerce site.  No real dollars are switching hands here.
