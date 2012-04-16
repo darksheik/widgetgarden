@@ -4,8 +4,9 @@ describe OrderItem do
     @category = Category.create!(:name => 'Car')
     @product = Product.create!(:name => 'Jumper Cables', :category_id => @category.id)
     @price = Price.create!(
-      :from => 4.50,
-      :to => 4.59,
+      :amount => 4.50,
+      :from => DateTime.now - 3,
+      :to => DateTime.now - 2,
       :product_id => @product.id)
     @user = User.create!()
     @attrs = { :user_id => @user.id }

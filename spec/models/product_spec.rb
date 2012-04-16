@@ -12,4 +12,9 @@ describe Product do
   it "should create an instance given valid attributes" do
     Product.create!(@attr)
   end
+  
+  it "should have a name" do
+    no_name_product = Product.new(:name => '')
+    no_name_product.should_not be_valid
+  end
 end
